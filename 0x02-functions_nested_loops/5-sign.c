@@ -1,21 +1,6 @@
 #include "main.h"
 
 /**
- * _isalpha - checks for alphabetic character
- * @c: the character to be checked
- * Return: 1 if c is a letter, 0 otherwise
- */
-int _isalpha(int c)
-{
-	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
-}
-
-
-5-sign.c
-
-#include "main.h"
-
-/**
  * print_sign - prints the sign of a number
  * @n: the int to check
  * Return: 1 and prints + if n is greater than zero
